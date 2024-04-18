@@ -1,7 +1,7 @@
 import './Home.css'
 import { Icon } from '@iconify/react';
 import { useTranslation } from 'react-i18next'
-
+import imagen from '../../assets/computer.gif'
 export const Home: React.FC = () => {
 
     const[ t ] = useTranslation("global") 
@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
         
     <div className='home'>
         
-        <img className="photito" src="./src/assets/computer.gif"/>
+        <img className="photito" src={imagen}/>
         
         <h2 className='tittle'>{t("Home.Title")}</h2>
         <h1 className='context'>{t("Home.Context")}</h1>
