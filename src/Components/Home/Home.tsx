@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
         
     <div className='home'>
         
-        <img className="photito" src='https://raw.githubusercontent.com/JuanseRozo01/PortafolioV1/master/src/assets/computer.gif'/>
+        <img className="photito" src="./src/assets/computer.gif"/>
         
         <h2 className='tittle'>{t("Home.Title")}</h2>
         <h1 className='context'>{t("Home.Context")}</h1>
