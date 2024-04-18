@@ -50,7 +50,7 @@ export const Projects: React.FC = () =>{
                 <div className="content">
                     <h2>Portafolio</h2>
                     <p>{t("Projects.Parrafo")}</p>
-                    <a href="">{t("Projects.buttom")}</a>
+                    <a href="https://github.com/JuanseRozo01/PortafolioV1">{t("Projects.buttom")}</a>
                 </div>
             </div>
 
