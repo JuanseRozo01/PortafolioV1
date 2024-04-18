@@ -1,0 +1,37 @@
+{
+    "Navbar":{
+        "HOME":"HOME",
+        "ABOUTME":"ABOUT ME",
+        "SKILLS":"SKILLS",
+        "PROJECTS":"PROJECTS",
+        "CONTACT":"CONTACT"
+    },
+     "Home":{
+        "Title":"HELLO, I'M JUAN SEBASTIAN ROZO, A FULL STACK WEB DEVELOPER.",
+        "Context":"WELCOME TO MY PORTFOLIO."
+     },
+     "Aboutme":{
+        "title":"ABOUT ME",
+        "Parrafo":"I am a passionate 21-year-old developer from Colombia, deeply committed to technology and its transformative potential. Currently, I am immersed in my education in public administration, a field that complements my vision and perspective, although my true passion and vocation lie in software development. In the course of 2023, I began my journey as a developer, delving into a process of self-directed learning to expand my programming skills and thus forge a solid career path in the technology industry.",
+        "Text":"Throughout this journey, I have cultivated experience in both frontend and backend development, exploring various technologies and methodologies to address the challenges that arise in the development of digital solutions. My primary goal is to stand out as a professional in the vast technological universe, aspiring to be recognized for my innovation and problem-solving abilities.",
+        "Texto2":"At this stage of my career, I am actively seeking challenging projects and job opportunities that allow me to effectively apply my programming skills. I aspire to make significant contributions to the creation of innovative and user-friendly digital experiences, leveraging my knowledge and passion for technology in every project I participate in.",
+        "cv":"VIEW CV"
+     },
+     "Skills":{
+        "title":"SKILLS"
+     },
+     "Projects":{
+        "title":"MY PROJECTS",
+        "Parrafo":"I used React and Chakra UI to create a to-do list application. I structured the components TaskList, TaskItem, and TaskForm. I designed using Chakra UI and CSS, adding functionality with JavaScript to add, delete, and mark tasks. I implemented LocalStorage to store data persistently in the browser.",
+        "buttom":"VIEW CODE",
+        "API":"I used Express and Node.js to create a to-do list server. I configured RESTful routes for CRUD operations and used Postman to test them. I implemented logic to interact with a MongoDB database to store and retrieve task data.",
+        "Portafolio":"I developed my portfolio using modern technologies such as React for structure and interactivity, Vite for fast compilation and development, TypeScript for better error detection during development, CSS for design and styling, and EmailJS for email sending functionality from the contact form. This combination of technologies allowed me to create a dynamic, responsive, and functional portfolio."
+     },
+     "Contact":{
+        "title":"CONTACT ME"
+     },
+     "Footer":{
+      "title":"Porwer by Juanse Rozo"
+     }
+    
+}

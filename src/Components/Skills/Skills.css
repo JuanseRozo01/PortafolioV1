@@ -1,0 +1,136 @@
+.slider_body{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    gap: 86px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.skills_title{
+  color: antiquewhite;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.slider{
+  height: 100px;
+  display: flex;
+  position: relative;
+}
+
+.slide_track{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  width: calc(300px * 34);
+  animation: scroll 30s linear infinite;
+  gap: 36px;
+}
+
+.slide_track:has(> .slide:hover){
+  animation-play-state: paused;
+}
+
+.slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11rem;
+  height: 11rem;
+  padding: 0rem; 
+  background: #0e001ae7;
+  border: 1px solid rgba(255, 255, 255, .18);
+  box-shadow: 0 8px 32px #1f26875e;
+  border-radius: 1rem;
+}
+
+.slide:hover{
+  background: #0000005c;
+  box-shadow: black 0px 0px 8px 2px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  width: 6rem;
+  height: auto;
+  padding: 2rem;
+  transition: .2s ease-in-out;
+  z-index: 1;
+}
+
+/* .chakra{
+  color: deepskyblue;
+} */
+
+.iconify {
+  margin-top: 0rem; 
+}
+
+.skill_texto{
+  opacity:0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition:.2s ease-in-out;
+  z-index: 2;
+  position: absolute;
+}
+
+.texto{
+  color: #58ecff;
+  filter: brightness(120%) saturate(150%);
+  font-weight: 700;
+}
+
+.skill_texto>.head{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  transition: 3s ease-in-out;
+}
+
+.slide:hover {
+  transform: scale(1.04) rotate(-1deg)
+}
+
+.slide:hover>.icons {
+    height: 65%;
+    filter: blur(8px);
+    animation: anim 3s infinite
+}
+
+.slide:hover>.skill_texto {
+  opacity:1
+}
+
+@keyframes anim {
+  0% {
+      transform: translateY(0)
+  }
+
+  50% {
+      transform: translateY(-9px)
+  }
+
+  to {
+      transform: translateY(0)
+  }
+}
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-200px * 14));
+  }
+}
+

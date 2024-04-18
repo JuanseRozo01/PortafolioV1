@@ -1,0 +1,37 @@
+{
+    "Navbar":{
+        "HOME":"INICIO",
+        "ABOUTME":"SOBRE MI",
+        "SKILLS":"CONOCIMIENTOS",
+        "PROJECTS":"PROYECTOS",
+        "CONTACT":"CONTACTAME"
+    },
+     "Home":{
+        "Title":"HOLA, SOY JUAN SEBASTIAN ROZO DESARROLLADOR WEB FULL STACK",
+        "Context":"BIENVENIDOS A MI PORTAFOLIO"
+     },
+     "Aboutme":{
+        "title":"SOBRE MI",
+        "Parrafo":"Soy un apasionado desarrollador de 21 años de Colombia, profundamente comprometido con la tecnología y su potencial transformador. Actualmente, me encuentro inmerso en mi formación en administración pública, un campo que complementa mi visión y perspectiva, aunque mi verdadera pasión y vocación radican en el desarrollo de software. En el transcurso del año 2023, inicié mi travesía como desarrollador, adentrándome en un proceso de aprendizaje autodidacta para expandir mis habilidades en programación y así forjar una trayectoria sólida en la industria tecnológica.",
+        "Text":"A lo largo de este recorrido, he cultivado experiencia tanto en el desarrollo frontend como en el backend, explorando diversas tecnologías y metodologías para abordar los desafíos que se presentan en el desarrollo de soluciones digitales. Mi meta primordial es destacarme como profesional en el vasto universo tecnológico, aspirando a ser reconocido por mi capacidad de innovación y resolución de problemas.",
+        "Texto2":"En esta etapa de mi carrera, estoy en búsqueda activa de proyectos desafiantes y oportunidades laborales que me permitan aplicar de manera efectiva mis habilidades en programación. Aspiro a contribuir significativamente a la creación de experiencias digitales innovadoras y amigables para los usuarios, aportando mi conocimiento y pasión por la tecnología en cada proyecto en el que participe.",
+        "cv":"VER CV"
+     },
+     "Skills":{
+        "title":"CONOCIMIENTOS"
+     },
+     "Projects":{
+        "title":"MIS PROYECTOS",
+        "Parrafo":"Utilicé React y Chakra UI para crear una aplicación de lista de tareas. Estructuré los componentes TaskList, TaskItem y TaskForm. Diseñé con Chakra UI y CSS, añadiendo funcionalidad con JavaScript para agregar, eliminar y marcar tareas. Implementé LocalStorage para almacenar datos de manera persistente en el navegador.",
+        "buttom":"VER CODIGO",
+        "API":"Utilicé Express y Node.js para crear un servidor de lista de tareas. Configuré rutas RESTful para las operaciones CRUD y utilicé Postman para probarlas. Implementé lógica para interactuar con una base de datos, MongoDB , para almacenar y recuperar datos de tareas.",
+        "Portafolio":"Desarrollé mi portafolio utilizando tecnologías modernas como React para la estructura y la interactividad, Vite para una rápida compilación y desarrollo, TypeScript para una mejor detección de errores durante el desarrollo, CSS para el diseño y estilos, y EmailJS para la funcionalidad de envío de correos electrónicos desde el formulario de contacto. Esta combinación de tecnologías me permitió crear un portafolio dinámico, receptivo y funcional."
+     },
+     "Contact":{
+        "title":"CONTACTAME"
+     },
+     "Footer":{
+      "title":"Desarrollado por Juanse Rozo"
+     }
+    
+}

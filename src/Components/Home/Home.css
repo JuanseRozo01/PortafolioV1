@@ -1,0 +1,103 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0px 32px 70px!important;
+  gap: 11px;
+}
+
+.photito {
+  width: 32rem;
+}
+
+.tittle {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.context {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content-icon{
+  display: flex;
+  justify-content:space-evenly;
+  gap: 30px;
+}
+
+.iconify{
+  display: flex;
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+@media(min-width:768px){
+
+  .photito{
+    width: 37rem;
+  }
+
+  .tittle{
+    font-size: 2rem;
+  }
+
+  .context{
+    font-size: 1.8rem;
+  }
+
+  .iconify{
+    font-size: 6rem;
+  }
+}
+
+@media(min-width:1024px){
+  .home{
+    padding: 0 32px 60px!important;
+  }
+
+  .photito{
+    width: 60%;
+  }
+
+  .tittle{
+    font-size: 3rem;
+  }
+
+  .context{
+    font-size: 2.2rem;
+    margin-top: 13px;
+  }
+
+  .iconify{
+    font-size: 7.6rem;
+    margin-top: 12px;
+  }
+}
+
+@media(min-width:1440px){
+  .home{
+    padding: 0 32px 60px!important;
+  }
+
+  .photito{
+    width: 30%;
+  }
+  .tittle{
+    font-size: 3.5rem;
+  }
+
+  .context{
+    font-size: 2.5rem;
+  }
+
+  .iconify{
+    font-size: 7rem;
+    gap: 5rem;
+  }
+}

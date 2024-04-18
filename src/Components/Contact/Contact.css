@@ -1,0 +1,123 @@
+.concatena{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 62vh;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 9rem;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    /* background-color: blueviolet; */
+    /* border-radius: 46px; */
+    width: 500px;
+    background-color: #1f1f1f;
+    /* border: 3px gray solid; */
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.forms:before{
+    content: '';
+    position: absolute;
+    top: -40%;
+    left: 40%;
+    width: 194px;
+    height: 100rem;
+    background: linear-gradient(#00ccff, #d400d4);
+    animation: animate 4s linear infinite;
+}
+
+.forms::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: black;
+}
+
+ /* .forms:nth-child(1),
+.forms:nth-child(2){
+    background: radial-gradient(farthest-side, rgba(255, 0, 182, 0.15), rgba(255, 255, 255, 0));
+} */
+
+.contactame{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #ffffff;
+    z-index: 10;
+}
+
+/* .forms_label{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+} */
+
+.input-form{
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    z-index: 10;
+}
+
+.forms_texarea{
+    margin-bottom: 2rem;
+    z-index: 10;
+    border-radius: 1rem;
+}
+
+.submit{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    /* margin-top: 1rem; */
+    border-radius: 1rem;
+    z-index: 10;
+    background: #477ff0e0;
+    color: white;
+    cursor: pointer;
+} 
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(350deg);
+    }
+}
+
+@media (max-width:1260px) {
+    .forms{
+        width: 40%;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .forms{
+        width: 49%;
+    }
+    
+}
+
+@media (max-width:769px) {
+    .forms{
+        width: 55%;
+    }
+    
+}
+
+@media (max-width:631px) {
+    .forms{
+        width: 66%;
+    }
+}
