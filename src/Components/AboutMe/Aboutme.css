@@ -43,7 +43,7 @@
         display: flex;
         content: "aa";
         position: absolute;
-        height: 63%;
+        height: 18rem;
         width: 96%;
         top: 3%;
         left: 3%;
@@ -53,7 +53,7 @@
 
     .photo-about{
     width: 96%;
-    height: auto;
+    height: 18rem;
     transform: translateZ(0);
     transition: opacity .25s linear;
     will-change: opacity;
@@ -72,7 +72,6 @@
         position: relative;
         font-size: 1.5rem;
         display: block;
-        /* margin-top: 30%; */
         margin-top: 17%;
         text-align: center;
         background-color: black;
@@ -107,22 +106,42 @@
         left: -4px;
       }
 
-    @media (min-width: 375px){
+    @media (min-width: 425px){
         .about::after {
-         height: 66%;
+         height: 23rem;
         }
+
+        .photo-about{
+            width: 96%;
+            height: 23rem;
+            transform: translateZ(0);
+            transition: opacity .25s linear;
+            will-change: opacity;
+            }
+
+
         
         }
             
-    @media (min-width: 768px) and (max-width:770px){
+    @media (min-width: 768px){
             
     .about::after{
-      height: 73%;
+      height: 40rem;
       width: 96%;
     }
+
+    .photo-about{
+        width: 96%;
+        height: 40rem;
+        transform: translateZ(0);
+        transition: opacity .25s linear;
+        will-change: opacity;
+        }
+
+
  }
    
- @media (min-width:771px) and (max-width: 860px) {
+ @media (min-width:1024px) {
     .about_container{
     margin: 0px auto;
     padding: 100px 0px;
@@ -142,18 +161,20 @@
         .about::after{
             content: "aa";
             position: absolute;
-            height: 19%;
+            height: 24rem;
             width: 96%;
             top: 1%;
             left: 3%;
             border: 3px solid red;
             z-index: -1;}
 
-
+            .photo-about{
+                height: 24rem;
+            }
     
  }
 
- @media (min-width: 861px) and (max-width:1024px) {
+ @media (min-width: 1440px){
     .about_container--ancho .about-description {
         display: grid;
         grid-template-columns: 3fr 2fr;
@@ -167,20 +188,105 @@
     .about_container--ancho{
       max-width: 1194px;
                }
-        
+               
+    .title{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin: 10px 0px 40px;
+        width: 100%;
+        font-size: 3rem;
+        color: white;
+        white-space: nowrap;}
+
+    .about{
+        position: relative;
+    }    
+
     .about::after{
-       content: "aa";
-       position: absolute;
-       height: 45%;
-       width: 96%;
-       top: 2%;
-       left: 3%;
-       border: 3px solid red;
-       z-index: -1;}
+        content: "aa";
+        position: absolute;
+        height: 30rem;
+        width: 96%;
+        top: 3%;
+        left: 3%;
+        border: 3px solid red;
+        z-index: -1;
+    }
 
+    .photo-about{
+        height: 30rem;
+    }
+
+
+        .title::after{
+            content: "";
+            display: block;
+            position: relative;
+            top: -1px;
+            width: 300px;
+            height: 1px;
+            margin-left: 20px;
+            background-color: white;
+        }
+        
+        .about_container--ancho .about-description {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 50px;
+            text-align: justify;
+        }
+
+            .parrafo{
+                font-family: GT-Walsheim-Pro-Regular,sans-serif;
+                font-size: 1.5rem;
+                line-height: 2;
+                margin: 0px 0px 15px;
+                text-align: left;
+                color: white;
+            }
+            
+            .cv{
+                position: relative;
+                font-size: 1.5rem;
+                display: block;
+                margin-top: 17%;
+                text-align: center;
+                background-color: black;
+                border: 4px solid red;
+                padding: 22px 58px 22px 58px;
+                height: 1rem;
+                width: 15rem;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: 600;
+                color: red;
+                letter-spacing: 3px;
+                cursor: pointer;
+            }   
+            
+            .cv::after{
+            min-width: 200px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 4px solid red;
+            background-color: red;
+            left: 4px;
+            top: 9px;
+            z-index: -1;
+            content: "";
+            transition: all .5s;
+            }
+
+            .cv:hover::after {
+                top: 0;
+                left: -4px;
+              }
+    }
     
- }
-
+ 
+/* 
  @media (min-width: 1440px) and (max-width:1800px){
 
     
@@ -206,9 +312,9 @@
         width: 100%;
         font-size: 3rem;
         color: white;
-        white-space: nowrap;}
+        white-space: nowrap;} */
 
-    .about{
+    /* .about{
         position: relative;
     }    
 
@@ -220,10 +326,10 @@
         top: 3%;
         left: 3%;
         border: 3px solid red;
-        z-index: -1;}
+        z-index: -1;} */
 
 
-        .title::after{
+        /* .title::after{
             content: "";
             display: block;
             position: relative;
@@ -238,7 +344,8 @@
             display: grid;
             grid-template-columns: 3fr 2fr;
             gap: 50px;
-            text-align: justify;}
+            text-align: justify;
+        }
 
             .parrafo{
                 font-family: GT-Walsheim-Pro-Regular,sans-serif;
@@ -253,7 +360,6 @@
                 position: relative;
                 font-size: 1.5rem;
                 display: block;
-                /* margin-top: 30%;   */
                 margin-top: 17%;
                 text-align: center;
                 background-color: black;
@@ -288,7 +394,24 @@
                 left: -4px;
               }
 
-            .photo-about{
+              .about{
+                position: relative;
+            }
+         
+            .about::after {
+                display: flex;
+                content: "aa";
+                position: absolute;
+                height: 30rem;
                 width: 96%;
-            }     
- }
+                top: 3%;
+                left: 3%;
+                border: 3px solid red;
+                z-index: -1;
+            } */
+
+            /* .photo-about{
+                width: 96%;
+                height: 30rem;
+            }      */
+ /* } */

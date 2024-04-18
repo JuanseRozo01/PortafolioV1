@@ -89,7 +89,7 @@
 }
 
 .menu-link a:not(:hover)::after {
-    opacity: 0.8; /* Desaparecer gradualmente */
+    opacity: 0.8; 
     transform: scaleX(0);
 }
 

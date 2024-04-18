@@ -24,47 +24,7 @@ export const Hamburger: React.FC = () => {
     }, []);
 
     return (
-        <div>
-            {/* Tu JSX aquí */}
-        </div>
+        <>  
+        </>
     );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export const Hamburger: React.FC = () => {
-//     const d = document;
-//     const burgerBg = d.querySelector('.header');
-//     const panelIsActi = d.querySelector('.nav');
-
-//     const menuHamburger = (btnHamburger, panel, menuLink) =>{
-//         d.addEventListener('click', (e) =>{
-//             if(e.target.matches(btnHamburger) || e.target.matches(`${btnHamburger} *`)){
-//                 d.querySelector(panel).classList.toggle("is-active")
-//                 d.querySelector(btnHamburger).classList.toggle("is-active")
-//             }
-//         })
-//     }
-
-//     menuHamburger('.hamburger--emphatic', '.panel', '.menu_link')
-//     return(
-//         <div></div>
-//     )
-// }

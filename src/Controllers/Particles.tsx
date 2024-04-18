@@ -20,10 +20,7 @@ export const ParticlesComponent = () => {
             console.log(container);
         }
     };
-    // const particlesLoaded = (container: Container ) => {
-    //     console.log(container);
-    // };
-
+    
     return (
          init && (
             <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: -2 }}>
@@ -101,8 +98,4 @@ export const ParticlesComponent = () => {
         </div>
         )
     );
-};
-    //       )
-    // ;
-// };
-   
+}; 

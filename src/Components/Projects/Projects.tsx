@@ -44,7 +44,7 @@ export const Projects: React.FC = () =>{
                 <div className="imgBx">
                     <img 
                     className="project-img"
-                    src="./public/Image/Portafolio.jpeg" 
+                    src="./public/Image/Portafolio.png" 
                     alt="photo" />
                 </div>
                 <div className="content">

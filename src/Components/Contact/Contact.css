@@ -5,19 +5,14 @@
     height: 62vh;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 9rem;
-    /* position: relative;
-    overflow: hidden; */
 }
 
 .forms{
     display: flex;
     flex-direction: column;
     padding: 4rem;
-    /* background-color: blueviolet; */
-    /* border-radius: 46px; */
     width: 500px;
     background-color: #1f1f1f;
-    /* border: 3px gray solid; */
     position: relative;
     overflow: hidden;
     z-index: 0;
@@ -41,11 +36,6 @@
     background: black;
 }
 
- /* .forms:nth-child(1),
-.forms:nth-child(2){
-    background: radial-gradient(farthest-side, rgba(255, 0, 182, 0.15), rgba(255, 255, 255, 0));
-} */
-
 .contactame{
     font-size: 2rem;
     margin-bottom: 3rem;
@@ -53,12 +43,6 @@
     color: #ffffff;
     z-index: 10;
 }
-
-/* .forms_label{
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    color: #ffffff;
-} */
 
 .input-form{
     padding: 1rem;
@@ -78,7 +62,6 @@
     font-size: 1.6rem;
     font-weight: 600;
     padding: 0.5rem;
-    /* margin-top: 1rem; */
     border-radius: 1rem;
     z-index: 10;
     background: #477ff0e0;
