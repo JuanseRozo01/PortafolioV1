@@ -28,7 +28,7 @@ export const AboutMe: React.FC = () => {
         </div>
 
         <div className='about'>
-        <img className='photo-about' src="./public/Image/oooooo.jpg" alt="photo" />
+        <img className='photo-about' src="/Image/oooooo.jpg" alt="photo" />
         <a className='cv' href={getCVFile()}>{t("Aboutme.cv")}</a>
         </div> 
        

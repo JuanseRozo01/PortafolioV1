@@ -16,7 +16,7 @@ export const Projects: React.FC = () =>{
                 <div className="imgBx">
                     <img 
                     className="project-img"
-                    src="./public/Image/todoApp.jpeg" 
+                    src="/Image/todoApp.jpeg" 
                     alt="photo" />
                 </div>
                 <div className="content">
@@ -30,7 +30,7 @@ export const Projects: React.FC = () =>{
                 <div className="imgBx">
                     <img 
                     className="project-img"
-                    src="./public/Image/Node API.png" 
+                    src="/Image/Node API.png" 
                     alt="photo" />
                 </div>
                 <div className="content">
@@ -44,7 +44,7 @@ export const Projects: React.FC = () =>{
                 <div className="imgBx">
                     <img 
                     className="project-img"
-                    src="./public/Image/Portafolio.png" 
+                    src="/Image/Portafolio.png" 
                     alt="photo" />
                 </div>
                 <div className="content">

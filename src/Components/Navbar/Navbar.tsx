@@ -23,7 +23,7 @@ return(
 
         <div className='menu-wrapper'>
         <a className="header-ancor" href="#">
-          <img className='images-svg' src="./src/assets/JR.svg" alt="logo" />
+          <img className='images-svg' src={process.env.PUBLIC_URL + '/assets/JR.svg'} alt="logo" />
         </a>
             <ul className="menu-list panel">
               <li className="menu-link"><Link to='home' smooth={true} duration={500} spy={true} ><a className='menu_link' href="#">{t("Navbar.HOME")}</a></Link></li>
