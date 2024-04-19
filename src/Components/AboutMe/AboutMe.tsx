@@ -8,9 +8,9 @@ export const AboutMe: React.FC = () => {
     const getCVFile = () => {
     const currentLanguage = i18next.language || 'en'; 
     if (currentLanguage === "es") {
-        return "/images/CV-EN.pdf";
+        return "/image/CV-EN.pdf";
     } else {
-        return "/images/CV-ES.pdf";
+        return "/image/CV-ES.pdf";
     }
       };
 
