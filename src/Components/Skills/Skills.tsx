@@ -54,7 +54,7 @@ export const Skills: React.FC = () => {
     return(
         <section className="slider_body">
 
-            <h2 className="skills_title">{t("Skills.title")}</h2>
+            <h2 data-aos="zoom-in" className="skills_title">{t("Skills.title")}</h2>
 
         <div className='slider'>
 

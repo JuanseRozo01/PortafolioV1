@@ -24,14 +24,11 @@
         "title":"MY PROJECTS",
         "Parrafo":"I used React and Chakra UI to create a to-do list application. I structured the components TaskList, TaskItem, and TaskForm. I designed using Chakra UI and CSS, adding functionality with JavaScript to add, delete, and mark tasks. I implemented LocalStorage to store data persistently in the browser.",
         "buttom":"VIEW CODE",
+        "buttom2":"VIEW DEMO",
         "API":"I used Express and Node.js to create a to-do list server. I configured RESTful routes for CRUD operations and used Postman to test them. I implemented logic to interact with a MongoDB database to store and retrieve task data.",
         "Portafolio":"I developed my portfolio using modern technologies such as React for structure and interactivity, Vite for fast compilation and development, TypeScript for better error detection during development, CSS for design and styling, and EmailJS for email sending functionality from the contact form. This combination of technologies allowed me to create a dynamic, responsive, and functional portfolio."
      },
      "Contact":{
         "title":"CONTACT ME"
-     },
-     "Footer":{
-      "title":"Porwer by Juanse Rozo"
      }
-    
 }

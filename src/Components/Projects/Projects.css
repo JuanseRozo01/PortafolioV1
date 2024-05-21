@@ -7,6 +7,7 @@
     position: relative;
     gap: 5rem;
     font-family: "Montserrat", sans-serif;
+    overflow: hidden;
 }
 
 .project_title{
@@ -145,98 +146,3 @@
         font-size: 30px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* .card_body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.cards_section{
-    position: relative;
-    width: 380px;
-    height: 190px;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 35px 80px rgb(0,0,0,0.15);
-    transition: 0.5s;
-}
-
-.cards_section:hover{
-    height: 450px;
-}
-
-.cards{
-    position: absolute;
-    left: 50%;
-    top: -50px;
-    transform: translateX(-50%);
-    width: 270px;
-    height: 170px;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 15px 50px rgb(0,0,0,0.35);
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-.cards_section:hover .cards{
-    width: 340px;
-    height: 250px;
-}
-
-.cards img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.cards_section .content{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-}
-
-.cards_section .content .details{
-    padding: 40px;
-    text-align: center;
-    width: 100%;
-    transition: 0.5s;
-    transform: translateY(100px);
-}
-
-.cards_section:hover .content .details{
-    transform: translateY(0px);
-}
-
-.cards_section .content .details h2{
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #000;
-    line-height: 1.5rem;
-}
-
-.cards_section .content .details h2 p{
-    font-size: 1.75rem;
-    font-weight: 500;
-    opacity: 0.5;
-}  */

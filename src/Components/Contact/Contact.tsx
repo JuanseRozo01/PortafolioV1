@@ -30,7 +30,7 @@ export const Contact: React.FC = () => {
 
     return(    
        
-       <div className='concatena'>
+       <div data-aos="fade-down" className='concatena'>
 
         <form action="#" className="forms" ref={form} onSubmit={sendEmail}>
 

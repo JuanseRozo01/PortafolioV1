@@ -9,9 +9,9 @@ export const Projects: React.FC = () =>{
 
      <section className='box-body'>
 
-        <h1 className="project_title">{t("Projects.title")}</h1>
+        <h1 data-aos="zoom-in-down" className="project_title">{t("Projects.title")}</h1>
 
-        <div className="project-container">
+        <div data-aos="zoom-in-right" data-aos-easing="ease-in-back" data-aos-delay="330" data-aos-offset="0" className="project-container">
             <div className="card">
                 <div className="imgBx">
                     <img 
@@ -22,11 +22,11 @@ export const Projects: React.FC = () =>{
                 <div className="content">
                     <h2>Todo Add</h2>
                     <p>{t("Projects.Parrafo")}</p>
-                    <a href="https://github.com/JuanseRozo01/my-react-task-list/tree/project-2">{t("Projects.buttom")}</a>
+                    <a href="https://my-react-task-list-omega.vercel.app/">{t("Projects.buttom2")}</a>
                 </div>
             </div>
 
-            <div className="card">
+            <div data-aos="zoom-in-down" data-aos-easing="ease-in-back" data-aos-delay="330" data-aos-offset="0" className="card">
                 <div className="imgBx">
                     <img 
                     className="project-img"
@@ -40,7 +40,7 @@ export const Projects: React.FC = () =>{
                 </div>
             </div>
 
-            <div className="card">
+            <div data-aos="zoom-in-left" data-aos-easing="ease-in-back" data-aos-delay="330" data-aos-offset="0" className="card">
                 <div className="imgBx">
                     <img 
                     className="project-img"
@@ -49,7 +49,7 @@ export const Projects: React.FC = () =>{
                 </div>
                 <div className="content">
                     <h2>Portafolio</h2>
-                    <p>{t("Projects.Parrafo")}</p>
+                    <p>{t("Projects.Portafolio")}</p>
                     <a href="https://github.com/JuanseRozo01/PortafolioV1">{t("Projects.buttom")}</a>
                 </div>
             </div>

@@ -7,17 +7,17 @@ export const AboutMe: React.FC = () => {
 
     const getCVFile = () => {
     const currentLanguage = i18next.language || 'en'; 
-    if (currentLanguage === "es") {
-        return "/image/CV-EN.pdf";
+    if (currentLanguage === "ES") {
+        return "/Image/CV-ES.pdf";
     } else {
-        return "/image/CV-ES.pdf";
+        return "/Image/CV-EN.pdf";
     }
       };
 
     return(
         <section className='about_container about_container--ancho'>
         
-        <h1 className="title">{t("Aboutme.title")}</h1>
+        <h1 data-aos="zoom-in" className="title">{t("Aboutme.title")}</h1>
 
         <div className="about-description">
         

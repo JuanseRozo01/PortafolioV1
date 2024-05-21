@@ -6,10 +6,13 @@
   height: 100vh;
   padding: 0px 32px 70px!important;
   gap: 11px;
+  overflow: hidden;
 }
 
 .photito {
   width: 32rem;
+  transform: translateY(-200px);
+  animation: slideIn 1s ease-in-out forwards;
 }
 
 .tittle {
@@ -32,10 +35,12 @@
   margin-top: 1rem;
 }
 
-.iconify{
+.iconify-y{
   display: flex;
   font-size: 4rem;
   margin-top: 2rem;
+  transform: translateY(-300px);
+  animation: expand .8s ease forwards;
 }
 
 @media(min-width:768px){
@@ -100,5 +105,25 @@
   .iconify{
     font-size: 7rem;
     gap: 5rem;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(600px) scale(6.2)
+  }
+
+  to {
+      transform: translateY(0) scale(1)
+  }
+}
+
+@keyframes expand {
+  0% {
+      transform: translateY(1400px)
+  }
+
+  to {
+      transform: translateY(0)
   }
 }

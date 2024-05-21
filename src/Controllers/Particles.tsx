@@ -80,7 +80,11 @@ export const ParticlesComponent = () => {
                         density: {
                             enable: true  
                         },
-                        value: 100,
+                        value: 2,
+                        limit:{
+                            mode:"delete",
+                            value: 20
+                        }
                     },
                     opacity: {
                         value: 0.5,
