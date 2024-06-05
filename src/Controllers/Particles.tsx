@@ -37,7 +37,7 @@ export const ParticlesComponent = () => {
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
+                            enable: false,
                             mode: "push",
                         },
                         onHover: {
@@ -51,7 +51,7 @@ export const ParticlesComponent = () => {
                         },
                         repulse: {
                             distance: 200,
-                            duration: 0.4,
+                            duration: 0,
                         },
                     },
                 },
@@ -73,18 +73,14 @@ export const ParticlesComponent = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 3.5,
                         straight: false,
                     },
                     number: {
                         density: {
                             enable: true  
                         },
-                        value: 2,
-                        limit:{
-                            mode:"delete",
-                            value: 20
-                        }
+                        value: 100
                     },
                     opacity: {
                         value: 0.5,
